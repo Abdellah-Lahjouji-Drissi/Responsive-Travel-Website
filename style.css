@@ -286,3 +286,15 @@ img{
 .button:hover i{
     transform: translateX(.25rem);
 }
+
+
+.blur-header::after{
+    content: "";
+    width: 1000%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(24px);
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
