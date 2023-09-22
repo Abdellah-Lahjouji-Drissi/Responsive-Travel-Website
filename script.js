@@ -24,6 +24,8 @@ navLinks.forEach((link) => {
     })
 })
 
+// blur Header
+
 window.addEventListener("scroll" , () => {
     this.scrollY >=50 ? header.classList.add("blur-header") : header.classList.remove("blur-header");
 
