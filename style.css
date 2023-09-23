@@ -361,3 +361,18 @@ img{
     rgba(0,0,0,0) 50% , 
     #000 125%);
 }
+
+.popular-title{
+    margin-bottom: .5rem;
+    font-size: var(--h3-font-size);
+}
+
+.popular-location{
+    display: inline-flex;
+    font-family: var(--second-font);
+    font-weight: 500;
+    font-size: var(--small-font-size);
+    align-items: center;
+    column-gap: .25rem;
+}
+
