@@ -341,13 +341,17 @@ img{
 .popular-container{
     padding-top: 1.5rem;
     grid-template-columns: 240px;
-    row-gap: 2.5rem;
+    row-gap: 2rem;
     justify-content: center;
 }
 
 .popular-image{
     position: relative;
     overflow: hidden;
+    
+}
+
+.popular-img{
     transition: transform .4s;
 }
 
@@ -363,8 +367,11 @@ img{
 }
 
 .popular-title{
-    margin-bottom: .5rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
     font-size: var(--h3-font-size);
+    
+
 }
 
 .popular-location{
@@ -373,6 +380,14 @@ img{
     font-weight: 500;
     font-size: var(--small-font-size);
     align-items: center;
-    column-gap: .25rem;
+    column-gap: .2rem;
+}
+
+.popular-location i {
+    font-size: 1rem;
+}
+
+.popular-image:hover .popular-img{
+    transform: scale(1.2);
 }
 
