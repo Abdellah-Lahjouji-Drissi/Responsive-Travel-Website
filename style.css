@@ -452,3 +452,61 @@ img{
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
+
+.join-container{
+  padding-bottom: 2.5rem;
+    row-gap: 3rem;
+
+}
+
+.join-data{
+    text-align: center;
+
+}
+
+.join-description{
+    margin-bottom: 2rem;
+}
+
+.join-form{
+    display:grid;
+    row-gap:1rem
+}
+
+.join-input{
+    padding: 1.25rem 1rem;
+    background-color: var(--container-color);
+}
+
+.join-button {
+    cursor: pointer;
+}
+
+.join-image{
+    position: relative;
+    overflow: hidden;
+    justify-self: center;
+}
+
+.join-img{
+    width: 300px;
+    transition: transform .4s;
+
+}
+
+
+.join-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg , 
+    rgba(0,0,0,0) 50% , 
+    #000 125%);
+}
+
+
+.join-image:hover .join-img{
+    transform: scale(1.2);
+}
