@@ -553,3 +553,35 @@ img{
 .footer-link:hover{
     color: var(--title-color);
 }
+
+.footer-group , .footer-copy{
+    display: flex;
+}
+
+.footer-group{
+    margin-top: 5rem;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.footer-social a:last-child{
+    margin-right: 0;
+}
+
+.footer-social-link{
+    color: var(--title-color);
+    transition: color .4s , transform .4s;
+    font-size: 1.25rem;
+}
+
+.footer-social-link:hover{
+    color: var(--title-color);
+    transform: translateY(-.25rem);
+}
+
