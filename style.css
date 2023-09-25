@@ -664,17 +664,28 @@ img{
     .home-cards{
         grid-template-columns: repeat(2 , 240px);
     }
-    .about-container{
+    .about-container , .join-container{
         grid-template-columns: repeat(2 , 350px);
         align-items: center;
     }
-    .about-data , .about-data .section-title{
+    .about-data , .about-data .section-title , 
+    .join-data  , .join-data .section-title {
         text-align: initial;
     }
 
-    .popular-container{
+    .popular-container , .join-container{
         grid-template-columns: repeat(2 , 240px);
     }
+
+    .explore-img{
+        width: 100vw;
+    }
+
+    .join-image{
+        order: -1;
+    }
+
 }
+
 
 /* large devices  */
