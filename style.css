@@ -563,7 +563,7 @@ img{
 }
 
 .footer-group{
-    margin-top: 5rem;
+    margin-top: 5.1rem;
     flex-direction: column;
     row-gap: 2rem;
     align-items: center;
@@ -619,7 +619,7 @@ img{
     bottom: -50%;
     background-color: rgba(255, 255, 255, 0.1);
     z-index: var(--z-tooltip);
-    padding: 6px ;
+    padding: 7px ;
     display: inline-block;
     font-size: 1.2rem;
     color: var(--title-color);
