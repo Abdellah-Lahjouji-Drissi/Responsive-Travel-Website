@@ -690,7 +690,124 @@ img{
         justify-content: space-between;
     }
 
+    .footer-group{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-copy{
+        order: -1;
+    }
+
 }
 
 
 /* large devices  */
+
+@media screen and (min-width:1023px){
+    .nav-close , .nav-toggle{
+        display: none;
+    }
+
+    .nav-list{
+       flex-direction: row;
+       column-gap: 4rem;
+    }
+
+    .popular-container{
+        grid-template-columns: repeat(3 , 240px);
+    }
+
+    .footer-data{
+        grid-template-columns: repeat(4 ,max-content);
+        column-gap: 4.5rem;
+    }
+    
+}
+
+@media screen and (min-width : 1152px) {
+   .container {
+       margin-inline: auto;
+    }
+
+    .section{
+        padding-block: 7rem 2rem;
+    }
+
+    .nav{
+        height: calc(--header-height + 1.5rem);
+    }
+    
+
+    .blur-header::after{
+        backdrop-filter: blur(25px);
+    }
+
+    .home-container{
+        grid-template-columns: initial;
+        justify-content: initial;
+        row-gap: 4rem;
+        padding-top: 6.5rem;
+    }
+
+    .home-shadow{
+        height: 980px;
+    }
+    .home-content{
+        text-align: initial;
+        width: 480px;
+    }
+
+    .home-subtitle{
+        font-size: var(--h2-font-size);
+    }
+    .home-description{
+        margin-bottom: 2.5rem;
+    }
+
+    .home-cards{
+        grid-template-columns: repeat(4 , 260px);
+    }
+    .home-card-title{
+        left: 1.5rem;
+        bottom: 1.5rem;
+    }
+
+    .button{
+        column-gap: 1.5rem;
+
+    }
+     .about-container{
+        grid-template-columns: 400px 460px;
+        column-gap: 8.5rem;
+        padding-block: 1rem;
+     }
+
+     .about-description{
+        margin-bottom: 3rem;
+
+     }
+
+     .about-img{
+        width: 460px;
+     }
+
+     .popular-container{
+        grid-template-columns: repeat(3, 300px);
+        column-gap: 3rem;
+        padding-top: 4rem;
+     }
+
+     .popular-title{
+        font-size: var(--h2-font-size);
+     }
+     .popular-location{
+        font-size: var(--normal-font-size)
+     }
+
+     .explore-img{
+        height: 600px;
+     }
+}
+
+
