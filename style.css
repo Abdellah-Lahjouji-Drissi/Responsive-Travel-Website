@@ -685,6 +685,11 @@ img{
         order: -1;
     }
 
+    .footer-content{
+        grid-template-columns: repeat(2 , max-content );
+        justify-content: space-between;
+    }
+
 }
 
 
