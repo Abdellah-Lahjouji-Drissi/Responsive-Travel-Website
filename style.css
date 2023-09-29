@@ -808,6 +808,11 @@ img{
      .explore-img{
         height: 600px;
      }
+
+     .explore-content{
+        grid-template-columns: 670px 1fr;
+        
+     }
 }
 
 
