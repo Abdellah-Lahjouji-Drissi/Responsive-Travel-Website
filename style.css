@@ -810,6 +810,7 @@ img{
      }
 
      .explore-content{
+        padding-top: 8rem;
         grid-template-columns: 670px 1fr;
         
      }
