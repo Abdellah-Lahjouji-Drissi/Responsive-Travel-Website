@@ -39,3 +39,22 @@ window.addEventListener("scroll" , ()=>{
     this.scrollY >= 350 ? scrollUp.classList.add("display-scrollup") : 
     scrollUp.classList.remove("display-scrollup");
 })
+
+// Scroll Reveal
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance:'60px',
+    duration: 3000,
+    delay:400,
+
+})
+
+sr.reveal(`.home-content , .explore-data , .explore-user , .footer-container`)
+sr.reveal(`.home-card` , {delay : 600 , distance:'100px' , interval:100})
+sr.reveal(`.about-data , .join-image` , {origin:'right'})
+sr.reveal(`.about-image , .join-data` , {origin:'left'})
+sr.reveal(`.popular-card` , {interval:200})
+
+
+
