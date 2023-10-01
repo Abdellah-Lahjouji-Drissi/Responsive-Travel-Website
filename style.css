@@ -814,6 +814,55 @@ img{
         grid-template-columns: 670px 1fr;
         
      }
+     
+     .explore-data , .explore-data .section-title{
+        text-align: initial;
+     }
+
+     .explore-user{
+        justify-content: flex-end;
+        align-self: flex-end;
+        margin-bottom: 1.25rem;
+     }
+
+     .join-container{
+        grid-template-columns: 460px 340px;
+        column-gap: 8rem;
+        padding-block: 1rem 5rem;
+     }
+
+     .join-img{
+        width: 460px;
+     }
+
+     .join-description{
+        margin-bottom: 3rem;
+     }
+
+     .footer{
+        padding-block: 5rem 3rem;
+     }
+
+     .footer-title{
+        margin-bottom: 1.5rem;
+     }
+
+     .footer-group{
+        margin-top: 7rem;
+     }
+
+     .footer-social{
+        column-gap: 2.5rem;
+     }
+
+     .footer-social-link{
+        font-size: 1.5rem;
+     }
+
+     .scrollup{
+        right: 3rem;
+     }
+
 }
 
 
